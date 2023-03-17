@@ -1,14 +1,10 @@
 # Job Market System
 
 ## Welcome
-
-> *Everything in software architecture is a trade-off.  
-First Law of Software Architecture*
-
-This page is architectural documentation for the solution proposal from **Team**.
+This page is architectural demo documentation for the solution proposal from **Team**.
 
 ## Business Case
-[Glossary](glossary.md) Glossary
+[Glossary](glossary.md)
 
 ## System Requirements
 
@@ -41,7 +37,7 @@ This section describes key stakeholders of the system and their architectural co
     - job-seekers register their profile (SH-4);
 
 * **UC-2**: **Account sign in**:
-    - accounts sign-in the system using their email and password combination (SH-3, SH-4) ;
+    - [UC-Login](UseCase/UC1-login.md) accounts sign-in the system using their email and password combination (SH-3, SH-4) ;
     - accounts can request a generation of a reset password link sent by email (SH-3, SH-4);
     - accounts can change their password using reset password link (SH-3, SH-4);
 
